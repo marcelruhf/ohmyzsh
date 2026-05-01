@@ -1,0 +1,25 @@
+install.sh
+  2360b2a8336ac91a 1-79
+README.md
+  2360b2a8336ac91a 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "bb1da90320e14b5e15c42e4445987a5fc7b42410",
+  "prompts": {
+    "2360b2a8336ac91a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "0e9e6c4c-6da4-4d30-ac1f-e70fc3741da8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Marcel Ruhf",
+      "messages": [],
+      "total_additions": 101,
+      "total_deletions": 0,
+      "accepted_lines": 101,
+      "overriden_lines": 0
+    }
+  }
+}
