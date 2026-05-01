@@ -1,5 +1,7 @@
-# custom files
-custom/
+# custom files (allow my numbered configs and tracked dotfiles)
+custom/*
+!custom/[0-9][0-9]-*.zsh
+!custom/dotfiles/
 
 # temp files directories
 cache/
