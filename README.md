@@ -1,3 +1,25 @@
+<!-- BEGIN PERSONAL FORK -->
+## Personal fork
+
+This is my personal fork of Oh My Zsh. It tracks numbered config files under
+`custom/` and the `~/.zshrc` / `~/.zshenv` sources of truth in
+`custom/dotfiles/`. Install on a new machine with:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/marcelruhf/ohmyzsh/master/install.sh | bash
+```
+
+The installer clones the fork to `~/.oh-my-zsh`, installs the third-party
+plugins (`zsh-autosuggestions`, `zsh-syntax-highlighting`), and symlinks
+`~/.zshrc` / `~/.zshenv` to the tracked dotfiles. Existing files are backed
+up. To use SSH instead of HTTPS:
+
+```sh
+OMZ_FORK_REPO=git@github.com:marcelruhf/ohmyzsh.git bash <(curl -fsSL https://raw.githubusercontent.com/marcelruhf/ohmyzsh/master/install.sh)
+```
+
+<!-- END PERSONAL FORK -->
+
 <p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/)
