@@ -1,0 +1,25 @@
+.gitignore
+  2360b2a8336ac91a 1-4
+custom/dotfiles/zshrc
+  2360b2a8336ac91a 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "027daf86791a0760dccc0de69bb8b4a6198224c6",
+  "prompts": {
+    "2360b2a8336ac91a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "0e9e6c4c-6da4-4d30-ac1f-e70fc3741da8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Marcel Ruhf",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 18,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    }
+  }
+}
